@@ -1,0 +1,179 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+    cursor: none !important;
+}
+
+html,body {
+    height: 100%;
+    background-color: #1e1e1e;
+    overflow-y: hidden;
+    
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.header {
+    background: transparent;
+    margin-top: 2em;
+    
+    
+}
+ul,.container {
+    display: flex;
+    gap: 2.5em;
+    float: right;
+    list-style-type: none;
+    margin-right: 1em;
+    
+    
+}
+
+li {
+    color: rgb(223, 64, 6);
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    margin-right: 28em;
+    font-size: 1.5em;
+    color: rgb(223, 64, 6);
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.section {
+    padding-top: 10%;
+    margin-left: 10em;
+
+}
+
+.main-text {
+    color:#ffffff;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+}
+
+.text-2 {
+    color: #ffffff;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+}
+.purple-text {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.7em;
+    letter-spacing: 0.1em;
+    color: rgb(212, 17, 199);
+}
+
+.sub-text {
+    color: #ffffff;
+    margin-top: 1em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.3em;
+}
+
+.btn-container {
+    margin-top: 8%;
+    margin-left: 30%;
+}
+
+.btn {
+    width: 8em;
+    height: 3em;
+    border-radius: 15%;
+    color: #ffffff;
+    font-size: 1em;
+    letter-spacing: .1em;
+    margin-top:8%;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+.fbtn {
+    background-color: #4333FB;
+    border: none;
+}
+
+.sbtn {
+    background: transparent;
+    margin-left: 1em;
+    border: 2px solid aqua;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    border: 2px solid black;
+    position: relative;
+    
+    box-shadow:0em 5em 3em 7em #5447dd62;
+    background-color: #5447dd62;
+    border: none;
+}
+
+svg{
+    width:30%;
+    float: right;
+    margin-top: -33%;
+  }
+  #hex{
+    stroke-width:2;
+    stroke:rgb(208, 6, 235);
+    fill-opacity:1;
+    transition:fill-opacity .8s;
+  }
+  svg:hover #hex {
+    fill-opacity:1;
+  }
+
+  .cursor {
+    width: 1.3em;
+    height: 1.3em;
+   
+    border: 2px solid white;
+    transition: all 200ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+  }
+  
+  .cursor2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: black;
+    opacity: .3;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width .3s, height .3s, opacity .3s;
+  }
+  
+  .hover {
+    background-color: red;
+    opacity: 0.5;
+  }
+  
+  .cursorinnerhover {
+    width: 50px;
+    height: 50px;
+    opacity: .5;
+  }
